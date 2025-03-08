@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.flag {
+    position: relative;
+    width: 240px;  /* Lebar bendera */
+    height: 160px; /* Tinggi bendera */
+    background-color: #005cbf; /* Warna biru */
+
+}
+
+.horizontal-bar {
+    position: absolute;
+    background-color: #ffc720; /* Warna kuning */
+    height: 30px; /* Tinggi batang horizontal */
+    width: 100%; /* Lebar */
+    top: 65px; /* Posisi vertical */
+}
+
+.vertical-bar {
+    position: absolute;
+    background-color: #ffc720; /* Warna kuning */
+    width: 30px; /* Lebar batang vertical */
+    height: 100%; /* Tinggi */
+    left: 60px; /* Posisi horizontal */
+}
